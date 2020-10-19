@@ -29,6 +29,7 @@ import urllib3
 import xmltodict
 import yaml
 import requests
+import time
 
 settings_file = "settings.yaml"
 if not os.path.exists(settings_file):
@@ -78,6 +79,7 @@ def get_reference(qid):
     return response_code
 
 def download_rpt(rcode,file):
+    time.sleep(60)
     req = requests.get(f"https://gdcdyn.interactivebrokers.com/Universal/servlet/FlexStatementService.GetStatement?q={rcode}&t={ibkr_token}&v=3")
     url_content = req.content
     csv_file = open(file, 'wb')
