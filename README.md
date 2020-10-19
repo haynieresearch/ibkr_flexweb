@@ -1,10 +1,8 @@
 # IBKR Flex Web Download [![Build Status](https://travis-ci.com/haynieresearch/ibkr_flexweb.svg?branch=master)](https://travis-ci.com/haynieresearch/ibkr_flexweb)
-This program is designed to extract [Interactive Brokers](https://www.interactivebrokers.com/)) Flex Queries as local csv files.
+This program is designed to extract [Interactive Brokers](https://www.interactivebrokers.com/) Flex Queries as local csv files.
 
 ## REQUIREMENTS
-* Interactive Brokers Brokerage Account
-
-This project is still in the early development phase and we will update this document accordingly as required.
+* Interactive Brokers Account
 
 ## INSTALL
 pip3 install -r requirements.txt\
