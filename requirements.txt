@@ -1,4 +1,3 @@
 urllib3
 xmltodict
-yaml
 requests
